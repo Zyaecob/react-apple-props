@@ -1,0 +1,17 @@
+.shadowBorder {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 9px 7px #919090;
+  padding: 10px;
+  margin: 10px;
+  background-color: #151464c5;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  transition: all 0.25s ease-in-out 0ms;
+  color: white;
+}
+.shadowBorder:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  /* cursor: pointer; */
+}

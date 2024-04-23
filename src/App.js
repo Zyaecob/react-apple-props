@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import './App.css';
+// import "./components/YouTube/Yt.css"
 
 import "./Resources/css/styles.css";
 import "./Resources/css/bootstrap.css";
@@ -12,6 +13,7 @@ import FourthSection from "./components/FourthSection";
 import FifthSection from "./components/FifthSection";
 import SixSection from "./components/SixSection";
 import Footer from './components/Footer';
+import YT from './components/YouTube/YT';
 
 class App extends Component {
   render() {
@@ -25,6 +27,7 @@ class App extends Component {
         <FourthSection />
         <FifthSection />
         <SixSection />
+        <YT />
         <Footer />
 
       </div>
