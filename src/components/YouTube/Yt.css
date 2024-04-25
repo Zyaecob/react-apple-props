@@ -5,17 +5,17 @@
 
 .singleVideoWraper {
   border: 1px solid rgb(228, 217, 217);
-  border-radius: 2px;
+  border-radius: 1.5px;
   box-shadow: 9px 7px #919090;
   /* padding: 10px; */
   margin: 10px;
   background-color: white;
   width: 100%;
-  max-height: 450px;
+  max-height: 500px;
   text-align: center;
-  transition: all 0.25s ease-in-out 0ms;
+  transition: all 0.2s ease-in-out 0ms;
   color: rgb(32, 31, 31);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .singleVideoWraper:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);

@@ -57,22 +57,6 @@ function YT() {
               return videoWrapper;
             })}
           </div>
-
-          {/* <div className="container-fluid">
-            <div className="row youTubeVideosWrapper">
-              <div className=" col-sm-12 col-md-6">
-                <div className="singleVideoWraper shadowBorder">
-                  <h3>1</h3>
-                </div>
-              </div>
-              <div className=" col-sm-12 col-md-6">
-                <div className="singleVideoWraper shadowBorder">
-                  <h3>2</h3>
-                </div>
-              </div>
-            </div>
-           end of logic 
-          </div> */}
         </div>
       </section>
     </>
